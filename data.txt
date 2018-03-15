@@ -1,0 +1,6 @@
+	1999	2000	2001	2002	2003	2004	2005	2006	2007	2008	2009	
+Commercial space launches (US)
+Launches (FAA)	13	7	3	5	5	6	1	2	3	6	4	
+People who literally worked themselves to death
+Deaths (US) (CDC)	21	13	8	10	14	12	11	13	9	7	10	
+Correlation: 0.701422
