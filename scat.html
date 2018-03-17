@@ -3,11 +3,22 @@
   <head>
     <title>ScatterPlot</title>
   </head>
+  <style>
+    .h{
+    position:absolute;
+    top:40%;
+    left:22%;
+    transform:rotate(-90deg);
+    }
+    </style>
   <body>
     <h1 align="center">Ice Cream Sales vs. Temperature</h1>
     <svg xmlns="http://www.w3.org/2000/svg" id="screen"  height="600" width="700" style="border-left-style: solid; border-bottom-style: solid;  display: block; margin: auto">
+      <!--<text x="-150" y="20" transform="rotate(270,100,90)">Ice Cream Sales (Dollars)</text>
+      <text x="350" y="550">Temperature</text>-->
     </svg>
-    <h2 align="center">Temperature</h2>
+    <h2 align="center">Temperature (C)</h2>
+    <h2 class="h">Ice Cream Sales (Dollars)</h2>
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="scatter.js"></script>
   </body>

@@ -9,7 +9,7 @@ for(i=0;i<10;i++){
 
 //Creating Labels for x axis
 var xAxisLabels = [];
-for(var i = 2; i<= 24; i += 2){
+for(var i = 12; i< 26; i += 2){
     xAxisLabels.push(i);
 }
 
@@ -20,7 +20,7 @@ d3.select("#screen").selectAll("text").data(xAxisLabels).enter().append("text").
 
 //Creating Labels for y axis
 var yAxisLabels = [];
-for(var i = 100; i<= 500; i+=100){
+for(var i = 100; i<= 600; i+=100){
     yAxisLabels.push(i);
 }
 
@@ -29,6 +29,7 @@ d3.select("#screen").selectAll("text").data(yAxisLabels).enter().append("text").
     return (i+1) * 600 / yAxisLabels.length;
 }).text(function(d) { return d; });
 
+    
 d3.select("#screen").selectAll("text").data(yAxisLabels).enter()
     
 var container=d3.select("svg");
